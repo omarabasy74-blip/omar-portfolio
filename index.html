@@ -136,5 +136,9 @@ document.getElementById('addAssignment').addEventListener('click',async()=>{
 document.getElementById('year').textContent=new Date().getFullYear();
 openDB().then(renderItems).catch(()=>{document.getElementById('assignmentList').innerHTML='<div class="empty">Assignment storage is not available in this browser. You can still use the portfolio sections.</div>'});
 </script>
+  <div style="text-align: center; margin: 30px 0;">
+    <a href="Assignment1/" target="_blank" style="margin: 0 10px; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px;">View Assignment 1</a>
+    <a href="Assignment2/" target="_blank" style="margin: 0 10px; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px;">View Assignment 2</a>
+</div>
 </body>
 </html>
